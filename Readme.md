@@ -5,7 +5,7 @@ Equatorial mounts have a preference for most astronomers as it compensates for t
 As I received a donated broken Dobsonian which I was able to repair, I quickly understood that finding and "tracking" objects via this table top Dobsonian is not very easy. Looking at the moon is okay but other objects quickly pose a challenge. I looked at a step by step approach on how I could improve the capabilities of the telescope.
 
 I did my research on the web and there are numerous DIY projects of people who are attempting and/or succeeding in this endeavour.
-After trying out different things I decided to start first with a "push to" solution based on a Raspberry Pi Pico interfacing with a Raspberry Pi 4B which runs Stellarium. The intent of the Pi Pico is to measure Right Ascension and Declination which is send to the RPI4B over serial UART using the telescope control plugin of Stellarium. If that would work then I would try to fully automate the Dobsonian mount to a GOTO mount with stepper motors.
+After trying out different things I decided to start first with a "push to" solution based on a Raspberry Pi Pico interfacing with a Raspberry Pi 4B which runs Stellarium. The intent of the Pi Pico is to measure Right Ascension and Declination which is send to the RPI 4B over serial UART using the telescope control plugin of Stellarium. If that would work then I would try to fully automate the Dobsonian mount to a GOTO mount with stepper motors.
 
 Of course you can buy an equatorial mount which will give you all the bells and whistles for serious stargazing.
 For me it is an interesting project which involves both theoretical and practical parts which makes it fun for me to learn new stuff.
@@ -22,7 +22,11 @@ For me it is an interesting project which involves both theoretical and practica
 | -------- | -------- | -------- | -------- | -------- |
 | 001 | Stellarium RPI does not communicate with GPS | 2024-10 | 2024-10 | Stellarium Github discusion #3936. Libgps-dev was not included into the RPI Stellarium source.
 | 002 | Tried to build Stellarium from source for RPI Bookworm, but ran into issues | 2024-10 | 2024-10 | Stellarium Github discusion #3943. Deb and deb-src of Jammy Main can be used as a repository to install Stellarium onto RPI Bookworm |
-| 003 | Pico UART PINs 16 and 17 caused jitter with driving the A4988 stepper driver | 2024-10-31 | 2024-11-03 | Changed to pins 10 and 11 to drive the motor and fast steps were possible |
+| 003 | LX200 serial command set uses "special" characters which I was not able to use within VSCode vREPL (double ?? are printed) | 2024-10 | 2024-10 | Using NexStar serial communication protocol
+| 004 | Pico UART PINs 16 and 17 caused jitter with driving the A4988 stepper driver | 2024-10-31 | 2024-11-03 | Changed to pins 10 and 11 to drive the motor and fast steps were possible |
+|  |  |  |  |  |
+
+
 
 
 
