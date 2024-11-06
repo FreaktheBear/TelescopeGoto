@@ -20,7 +20,7 @@ For me it is an interesting project which involves both theoretical and practica
 
 | Issue No.| Description | Date reported | Date resolved | Solution |
 | -------- | -------- | -------- | -------- | -------- |
-| 001 | Stellarium RPI does not communicate with GPS | 2024-10 | 2024-10 | Stellarium Github discusion #3936. Libgps-dev was not included into the RPI Stellarium source.
+| 001 | Stellarium RPI does not communicate with GPS | 2024-10 | 2024-10 | Stellarium Github discusion #3936. Libgps-dev was not included into the RPI Stellarium source. Stellarium Team added libgs-dev to source |
 | 002 | Tried to build Stellarium from source for RPI Bookworm, but ran into issues | 2024-10 | 2024-10 | Stellarium Github discusion #3943. Deb and deb-src of Jammy Main can be used as a repository to install Stellarium onto RPI Bookworm |
 | 003 | LX200 serial command set uses "special" characters which I was not able to use within VSCode vREPL (double ?? are printed) | 2024-10 | 2024-10 | Using NexStar serial communication protocol
 | 004 | Pico UART PINs 16 and 17 caused jitter with driving the A4988 stepper driver | 2024-10-31 | 2024-11-03 | Changed to pins 10 and 11 to drive the motor and fast steps were possible |
