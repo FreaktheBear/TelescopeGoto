@@ -17,6 +17,7 @@ For me it is an interesting project which involves both theoretical and practica
 4. Tracking based on NEMA 17 stepper motors driven by A4988 drivers and pulsed from the Pi Pico PIO.
 
 ## Issues log
+(moved github issues log)
 
 | Issue No.| Description | Date reported | Date resolved | Solution |
 | -------- | -------- | -------- | -------- | -------- |
