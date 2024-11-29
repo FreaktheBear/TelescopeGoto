@@ -29,7 +29,7 @@ For me it is an interesting project which involves both theoretical and practica
 ## Some pictures
 
 Herewith a few pictures of the design so far.
-Currently the right ascension and declination stepper motors will move the mount to an initial position (0 hours / 0 degrees) based on the feedback of two MPU6050 Accellero/Gyro sensors
+Currently the right ascension and declination stepper motors will move the mount to an initial position (_Pico_ reticle 0 hours / 0 degrees) based on the feedback of two MPU6050 Accellero/Gyro sensors
 
 ![mount1](images/mount1.jpg)
 
