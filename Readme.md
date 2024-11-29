@@ -26,8 +26,16 @@ For me it is an interesting project which involves both theoretical and practica
 | 004 | Pico UART PINs 16 and 17 caused jitter with driving the A4988 stepper driver | 2024-10-31 | 2024-11-03 | Changed to pins 10 and 11 to drive the motor and fast steps were possible |
 |  |  |  |  |  |
 
+## Some pictures
 
+Herewith a few pictures of the design so far.
+Currently the right ascension and declination stepper motors will move the mount to an initial position (0 hours / 0 degrees) based on the feedback of two MPU6050 Accellero/Gyro sensors
 
+![mount1](images/mount1.jpg)
+
+![mount1](images/mount2.jpg)
+
+![mount1](images/stellarium.jpg)
 
 
 
